@@ -34,3 +34,26 @@
     font-style: italic;
     color: #1f2937;
 }
+
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
