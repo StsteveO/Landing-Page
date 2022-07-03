@@ -1,8 +1,84 @@
-.header,
-.footer{
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container,
+.footer-container{
     background-color: #1f2937;
 }
 
+.header-navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-list{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.header-intro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-intro-text{
+    height: 300px;
+    width: 40%;
+}
+
+.header-intro-awesome{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.header-intro-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-intro-image{
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: rgb(76, 144, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 40%;
+}
+
+button{
+    background-color: #3382f6;
+    color: #e5e7eb;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.middle-container{
+    background-color: #e5e7eb;
+}
+
+
+
+/* 
 .maintext{
     font-size: 48px;
     font-weight: bolder;
@@ -56,4 +132,4 @@ ul{
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
+} */
