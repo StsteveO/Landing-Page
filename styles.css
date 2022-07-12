@@ -2,6 +2,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
 .header-container,
 .footer-container{
     background-color: #1f2937;
@@ -72,10 +78,6 @@ button{
     font-weight: bold;
 }
 
-.top-container{
-
-}
-
 .top-title-container{
     text-align: center;
     font-size: 36px;
@@ -87,6 +89,12 @@ button{
     background-color: #e5e7eb;
 }
 
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb
+}
 
 
 /* 
