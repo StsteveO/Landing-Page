@@ -31,3 +31,78 @@
 
     /* example: color: var(--navy-clr) */
 }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    padding: 5%, 10%;
+}
+
+.header.container{
+    flex-grow: 1;
+}
+            .top.header.container{
+                display: flex;
+                justify-content: space-between;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                gap: 20px;
+            }
+            .bottom.header.container{
+                display: flex;
+            }
+.top.container{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+            .random-information{
+                text-align: center;
+            }
+
+            .img-and-subtxt.top.container{
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+            }
+            .img-and-subtxt.top.item{
+                width: 130px;
+                text-align: center;
+            }
+
+            .blank-img{
+                width: 130px;
+                height: 130px;
+                border-radius: 10px;
+                border: 4px solid blue;
+            }
+
+.middle.container{
+    flex-grow: 1;
+}
+            .quote{
+                text-align: center;
+            }
+            .thor-attribute{
+                text-align: end;
+            }
+.bottom.container{
+    flex-grow: 1;
+}
+            .call-to-act.bottom.container{
+                display: flex;
+                justify-content: space-around;
+            }
+.footer.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0,0,auto;
+}
