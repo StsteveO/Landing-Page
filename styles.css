@@ -40,15 +40,34 @@ body{
 }
 
 .container{
-    padding: 5%, 10%;
+    /* padding: 10px 40px; */
 }
 
 .header.container{
     flex-grow: 1;
+    background-color: var(--navy-clr);
+    padding: 1px 100px 50px 100px;
 }
             .top.header.container{
                 display: flex;
+                flex-direction: row;
                 justify-content: space-between;
+                align-items: center;
+            }
+            .header-logo{
+                font-size: 24px;
+                font-weight: bold;
+                color: var(--header-logo-txt);
+            }
+            .hero-main-text{
+                font-size: 48px;
+                font-weight: bolder;
+                color: var(--hero-main-txt);
+            }
+            .hero-secondary-text,
+            li{
+                font-size: 18px;
+                color: var(--hero-secondary-txt);
             }
             ul{
                 list-style: none;
@@ -57,10 +76,30 @@ body{
             }
             .bottom.header.container{
                 display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .hero.text.block{
+                width: 50%;
+            }
+            button{
+                background-color: var(--sky-clr);
+                border-radius: 5px;
+                padding: 10px 30px;
+                border-style: none;
+                color: var(--hero-secondary-txt);
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .img-placeholder{
+                color: var(--hero-secondary-txt);
+                background: grey;
+                padding: 80px 60px;
             }
 .top.container{
     flex-grow: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
             .random-information{
@@ -69,6 +108,7 @@ body{
 
             .img-and-subtxt.top.container{
                 display: flex;
+                flex-direction: row;
                 justify-content: center;
                 gap: 40px;
             }
@@ -86,6 +126,7 @@ body{
 
 .middle.container{
     flex-grow: 1;
+    background-color: var(--gray-clr);
 }
             .quote{
                 text-align: center;
@@ -96,13 +137,20 @@ body{
 .bottom.container{
     flex-grow: 1;
 }
+            .call-to-action-background{
+                background-color: var(--sky-clr);
+                margin: 30px;
+                border-radius: 15px;
+            }
             .call-to-act.bottom.container{
                 display: flex;
                 justify-content: space-around;
+                align-items: center;
             }
 .footer.container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 0,0,auto;
+    background-color: var(--navy-clr);
 }
