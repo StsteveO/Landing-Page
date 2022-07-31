@@ -38,11 +38,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-.container{
-    /* padding: 10px 40px; */
-}
-
 .header.container{
     flex-grow: 1;
     background-color: var(--navy-clr);
